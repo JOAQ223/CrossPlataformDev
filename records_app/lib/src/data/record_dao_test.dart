@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:records_app/src/models/record.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'record_test_data.dart';
+import 'package:records_app/src/test/record_test_data.dart';
 
 void main() {
   group('RecordDAO', () {
